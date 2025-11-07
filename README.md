@@ -160,18 +160,42 @@ I have managed large-scale, high-budget advertising ecosystems (multi-million US
 - Campaign-level decision trees and attribution path audits
 
 ## Current Focus
-- High-reliability distributed computation environments.
-- Attribute and schema modeling for systems expected to live for years.
-- Formalizing reasoning around correctness and operational confidence.
-- Performance refinement across compute, I/O and front-end rendering.
-- Systemic simplification and reduction of operational entropy.
-- Integrating semantic search, chained models and structured reasoning flows.
+
+My current work revolves around designing, operating and evolving platforms that must remain stable, correct and observable under continuous growth, high concurrency and constantly shifting business requirements.
+
+I work with:
+- **High-reliability distributed computation environments**, where execution determinism, memory behavior and failure boundaries must be explicitly understood.
+- **Multi-region content and traffic distribution**, serving clusters of platforms reaching millions of daily users with median latencies as low as 40–60ms.
+- **Advanced attribute and schema modeling**, for systems intended to persist for years without requiring migrations that break data lineage or operational continuity.
+- **Formal reasoning about correctness**, ensuring that behaviors are measurable, predictable and reversible — particularly in pipelines with irreversible transformations.
+- **Performance refinement across compute, I/O and render paths**, minimizing latency and resource waste without sacrificing readability or architectural clarity.
+- **Semantic representation models, chained reasoning pipelines and retrieval systems**, integrating structured embeddings, embeddings-based joins, symbolic layers and long-context model orchestration.
+- **Systemic simplification**, reducing entropy and long-term operational drag, ensuring systems can grow without growing *more complicated*.
+
+Many of the systems I build are **not short-lived products** — they are long-run infrastructure foundations that must remain comprehensible and adaptable years later, regardless of scale.
 
 ## Approach
-I build systems that:
-- Remain understandable years later.
-- Fail gracefully and predictably.
-- Scale without architectural drift.
-- Serve real, sustained purposes instead of trends.
 
-I build to endure.
+Everything I build has a single priority: **to make my clients’ systems last, scale and remain understandable** — even as complexity, traffic and operational demands increase.
+
+I design architectures that:
+- Maintain clarity over time, regardless of team size or turnover.
+- Scale without introducing architectural drift or silent brittleness.
+- Fail in controlled and predictable ways, with explicit recovery paths.
+- Optimize for *long-term stability*, rather than short-lived wins or hype.
+
+I architect systems with an emphasis on:
+- Data integrity and lineage.
+- Deep observability and traceability.
+- Realistic operational cost and maintainability.
+- Consistency of execution at every layer.
+
+I prioritize **systems that endure**, because endurance is the hardest thing to build.
+
+At present, I am **not accepting new external work** — my ongoing commitments already involve:
+- Maintaining **large-scale distributed media and data pipelines**.
+- Operating **multi-language, multi-region traffic distribution networks**.
+- Supporting platforms that collectively reach **billions of monthly requests**.
+- Ensuring **strict performance guarantees**, with latencies frequently under **50ms** at global scale.
+
+My work continues — quietly, consistently — at **large scale**.
